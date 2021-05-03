@@ -16,6 +16,7 @@ function save_options() {
     });
 }
 
+
 function first_selection_of($select, value) {
     $select.find('.value')
         .text(value);
